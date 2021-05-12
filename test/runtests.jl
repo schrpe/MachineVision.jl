@@ -1,6 +1,6 @@
-using ModuleTemplate
+using MachineVision
 using Test
 
-@testset "ModuleTemplate.jl" begin
+@testset "MachineVision.jl" begin
     # Write your tests here.
 end
