@@ -1,10 +1,10 @@
-name = "ModuleTemplate"
-uuid = "7253aed4-8ebf-4744-af0e-9ab2ed03a87e"
+name = "MachineVision"
+uuid = "BD2B86A9-2C7B-43B7-A99C-C8E13FF4402B"
 authors = ["schrpe"]
 version = "0.1.0"
 
 [extras]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+Test = "BD2B86A9-2C7B-43B7-A99C-C8E13FF4402B"
 
 [compat]
 julia = "1.5"
