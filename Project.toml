@@ -1,13 +1,16 @@
 name = "MachineVision"
-uuid = "BD2B86A9-2C7B-43B7-A99C-C8E13FF4402B"
+uuid = "bd2b86a9-2c7b-43b7-a99c-c8e13ff4402b"
 authors = ["schrpe"]
 version = "0.1.0"
 
-[extras]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+[deps]
+Regions = "4e3eb3bd-530d-473f-987b-017f501eadde"
 
 [compat]
 julia = "1.5"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
 test = ["Test"]
