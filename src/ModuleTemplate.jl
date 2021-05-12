@@ -1,5 +1,5 @@
-module ModuleTemplate
+module MachineVision
 
-# Write your package code here.
+using Regions
 
 end
