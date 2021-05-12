@@ -1,14 +1,16 @@
 ```@meta
-CurrentModule = ModuleTemplate
+CurrentModule = MachineVision
 ```
 
-# ModuleTemplate
+# MachineVision
 
-Documentation for [ModuleTemplate](https://github.com/schrpe/ModuleTemplate.jl).
+Documentation for [MachineVision](https://github.com/schrpe/MachineVision.jl).
+
+MachineVision.jl is an umbrella project for machine vision modules.
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [ModuleTemplate]
+Modules = [MachineVision]
 ```

@@ -18,9 +18,9 @@ jobs:
       - run: |
           julia --project=docs -e '
             using Documenter: DocMeta, doctest
-            using ModuleTemplate
-            DocMeta.setdocmeta!(ModuleTemplate, :DocTestSetup, :(using ModuleTemplate); recursive=true)
-            doctest(ModuleTemplate)'
+            using MachineVision
+            DocMeta.setdocmeta!(MachineVision, :DocTestSetup, :(using MachineVision); recursive=true)
+            doctest(MachineVision)'
       - run: julia --project=docs docs/make.jl
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

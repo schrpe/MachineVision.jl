@@ -1,3 +1,3 @@
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
-ModuleTemplate = "f8e151ba-36af-48ae-8b6c-50944294fe56"
+MachineVision = "BD2B86A9-2C7B-43B7-A99C-C8E13FF4402B"
