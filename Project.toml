@@ -1,0 +1,13 @@
+name = "ModuleTemplate"
+uuid = "7253aed4-8ebf-4744-af0e-9ab2ed03a87e"
+authors = ["schrpe"]
+version = "0.1.0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+julia = "1.5"
+
+[targets]
+test = ["Test"]
